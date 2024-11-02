@@ -43,7 +43,7 @@ body {
 }
 
 #navBar-left {
-    margin-left: 131px;
+    margin-left: 90px;
     display: flex;
 }
 
@@ -261,8 +261,9 @@ body {
     flex-direction: column;
     transition: transform .6s;
 }
+
 .place-box:hover {
-    transform: scale(1.1) ;  
+    transform: scale(1.1);
 }
 
 #place-box-1 {
@@ -296,23 +297,27 @@ body {
     font-size: 1rem;
     margin-left: 14px;
 }
-.popular-loc{
+
+.popular-loc {
     margin-left: 84px;
 }
-.popular-loc h1{
-   color: rgb(67, 62, 62);
+
+.popular-loc h1 {
+    color: rgb(67, 62, 62);
 }
 
-.popular-places{
+.popular-places {
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 42px;
- 
+
 }
-.popular-places h4{
+
+.popular-places h4 {
     margin-bottom: 7px;
 }
-.popular-places div{
+
+.popular-places div {
     padding: 12px;
     margin-bottom: 12px;
     border-radius: 4px;
@@ -321,15 +326,16 @@ body {
     width: 28vw;
     box-shadow: 0px 0px 10px -5px black;
 }
+
 /* Contact Us  */
-.contact-us{
+.contact-us {
     height: 70vh;
     width: 100%;
     background: rgb(255, 255, 243);
     margin-top: 50px;
     display: flex;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .phone-img {
@@ -338,58 +344,64 @@ body {
     display: flex;
 
 }
-.phone-img img{
+
+.phone-img img {
     height: 395px;
     width: 371px;
     margin-left: -112px;
 }
 
-.contact-container{
+.contact-container {
     height: 289px;
     width: 454px;
 }
-.contact-container h1{
-  color: black;
-  font-weight: 200;
-  font-size: 2.9rem;
-  margin-bottom: 20px;
+
+.contact-container h1 {
+    color: black;
+    font-weight: 200;
+    font-size: 2.9rem;
+    margin-bottom: 20px;
 }
-.contact-container h3{
+
+.contact-container h3 {
     line-height: 1.3;
-  color: rgb(113, 112, 112);
-  font-weight: 200;
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  font-family:Arial, Helvetica, sans-serif;
+    color: rgb(113, 112, 112);
+    font-weight: 200;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.radio-button input{
+.radio-button input {
     margin-right: 2px;
     font-size: 19px;
-    
+
 }
+
 .radio-button {
     display: flex;
     font-size: 19px;
     margin-bottom: 12px;
 }
-.radio-button div:nth-child(2){
+
+.radio-button div:nth-child(2) {
     margin-left: 28px;
 }
 
-.contact-form #input-bar{
+.contact-form #input-bar {
     padding: 10px;
     background: none;
     height: 38px;
     width: 321px;
     border: 2px solid rgba(55, 50, 50, 0.133);
-    outline-color:#989ce6 ;
+    outline-color: #989ce6;
     border-radius: 10px;
     margin-bottom: 14px;
-    
+
 }
-.contact-form button{
+
+.contact-form button {
     font-family: bold;
     border: none;
     font-weight: 400;
@@ -399,46 +411,51 @@ body {
     text-align: center;
     width: 110px;
     height: 36px;
-    
+
 }
-.contact-form button:hover{
-  border-radius:23px;
-  background-color: rgb(14, 116, 14);
-    
+
+.contact-form button:hover {
+    border-radius: 23px;
+    background-color: rgb(14, 116, 14);
+
 }
-.contact-form p{
-    
+
+.contact-form p {
+
     font-size: 1.2rem;
     margin-bottom: 3px;
     margin-left: 12px;
     color: rgb(113, 112, 112);
 
 }
-.contact-icon{
+
+.contact-icon {
     display: flex;
-    
+
 }
-.contact-icon img{
+
+.contact-icon img {
     height: 40px;
-    width:  130px;
+    width: 130px;
     margin: 12px;
 
 }
 
 /* Explore section */
-.explore-section{
+.explore-section {
     height: 75vh;
     width: 95vw;
     padding: 50px;
     margin-top: 52px;
-margin-left: 22px;
-} 
-.head{ 
+    margin-left: 22px;
+}
+
+.head {
     color: #6f6f6f;
     font-size: 1.6rem;
 }
 
-.explore-box{
+.explore-box {
     font-family: sans-serif;
     font-size: 18px;
     padding: 16px;
@@ -451,141 +468,205 @@ margin-left: 22px;
 
 /* eND page */
 
-.link-container{
+.link-container {
     height: 70vh;
     background-color: rgb(243, 247, 225);
     padding: 36px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
-.link-container h1{
+.link-container h1 {
     font-size: 2.5rem;
 }
 
-#link-head-h1{
-  margin-right: 700px;
-  color: black;
+#link-head-h1 {
+    margin-right: 700px;
+    color: black;
 }
-.link-container button{
+
+.link-container button {
     margin-right: 28px;
     height: 29px;
     width: 120px;
     background: none;
     border: black solid 1px;
     border-radius: 6px;
-  
+
 }
-.link-3{
+
+.link-3 {
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     display: flex;
     justify-content: space-evenly;
-    margin-left: -156px;
+    margin-left: -112px;
 }
 
 
 
-.link-head{
+.link-head {
     display: flex;
     align-items: center;
     margin-bottom: 27px;
 
 }
-.link-2{
+
+.link-2 {
     display: flex;
     justify-content: space-evenly;
     margin-left: -114px;
 }
+.link-3 a{
+    margin: 9px;
+}
 
 /* Responsive design for mobile devices */
-@media only screen and  (max-width:650px) {
-    /* body{
-        background: black;
-    } */
+@media only screen and (max-width:650px) {
+
+     body{
+        width: 109vw;
+    } 
     /* navbar */
-    #navBar-left{
+    #navBar-left {
         margin-left: 3rem;
     }
-    .container{
+
+    .container {
         width: 38rem;
     }
-    #sign-up,#add-rest, #invest{
+
+    #sign-up,
+    #add-rest,
+    #invest {
         display: none;
     }
-    .input-box{
+
+    .input-box {
         flex-direction: column;
         gap: 1.7rem;
+        width: 70vw;
     }
-    #link-head-h1{
+    .address {
+        width: 39vw;
+        padding: 5px;
+    }
+    .search-box input{
+        text-align: center;
+        border-radius: 12px;
+    }
+
+    #link-head-h1 {
         margin-right: 12px;
-        
+
     }
-    .mid{
+    .mid {
         margin-left: 12rem;
         display: flex;
         margin-top: 440px;
         justify-content: center;
         margin-bottom: 45px;
     }
-    .box-1, .box-2{
-        max-width: 16.1rem ;
-    }
-    .box-image1, .box-image2{
+
+    .box-1,
+    .box-2 {
         max-width: 16.1rem;
     }
-    .box-text{
+
+    .box-image1,
+    .box-image2 {
+        max-width: 16.1rem;
+    }
+
+    .box-text {
         max-width: 16.1em;
     }
+    .place-box h5{
+        margin-top: 410px;
+    }
+
     /* places section */
-    .places{
-        padding: 1px;
+    .places {
+        width: 156vw;
+        padding: 25px;
         margin: 0px;
         height: auto;
     }
-    .place-text h5{
-        margin-left:0px;
-    }
-    /* popular-location section */
-    .popular-loc {
+
+    .place-text h5 {
         margin-left: 0px;
     }
-    .place-container{
+
+    /* popular-location section */
+    .popular-loc {
+        margin: 34px;
+        width: 34rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popular-places div {
+        width: 10rem;
+    }
+
+    .place-container {
         flex-direction: column;
         height: 100%;
         align-items: center;
         gap: 1rem;
     }
-    .place-box{
+
+    .place-box {
         width: 25rem;
     }
-     /* contact-us section  */
-     .contact-us{
+
+    /* contact-us section  */
+    .contact-us {
         gap: 5%;
         flex-direction: column;
         width: 38rem;
         height: 40rem;
-   
-     }
-     .phone-img{
+
+    }
+
+    .phone-img {
         height: 20rem;
         width: 20rem;
         margin-bottom: 0rem;
-     }
-     .phone-img img{ 
+    }
+
+    .phone-img img {
         margin: 0px;
-        height: 30rem;
+        height: 21rem;
         width: 20rem;
-     }
-     .contact-container{
+    }
+
+    .contact-container {
         margin-left: -80px;
-     }
-     .contact-container h1{
+    }
+
+    .contact-container h1,
+    .contact-container h3 {
         text-align: center;
-     }
+    }
+
+    .explore-box {
+        margin: 0px auto;
+        margin-bottom: 1.1rem;
+    }
+
+    .explore-section {
+        width: 35rem;
+        margin: 0px;
+    }
+
+    .head {
+        margin-bottom: 2.8rem;
+    }
+    .explore-section{
+        height: 43vh;
+    }
+    .link-container {
+        height: 40vh;
+        width: 154vw;
+    }
 }
-
-
-
-
-
-
